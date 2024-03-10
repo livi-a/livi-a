@@ -168,14 +168,6 @@ select::-ms-expand {
     outline: 0
 }
 
-@font-face {
-    font-family: ABCDiatype-Regular;
-    src: url(../fonts/build/ABCDiatype-Regular.eot);
-    src: url(../fonts/build/ABCDiatype-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/build/ABCDiatype-Regular.woff2) format("woff2"), url(../fonts/build/ABCDiatype-Regular.woff) format("woff"), url(../fonts/build/ABCDiatype-Regular.ttf) format("ttf"), url(../fonts/build/ABCDiatype-Regular.svg#ABCDiatype-Regular) format("svg");
-    font-style: normal;
-    font-weight: regular
-}
-
 html {
     font-size: 15px;
     font-family: sans-serif
@@ -206,7 +198,6 @@ html {
 }
 
 body {
-    font-family: ABCDiatype-Regular;
     font-size: .8rem;
     line-height: 1.167
 }
