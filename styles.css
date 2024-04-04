@@ -114,10 +114,22 @@ svg:hover {
     padding-left: 24px;
 }
 
+@media only screen and (max-width: 600px) {
+    .titleR img {
+        height: 25px;
+        padding-left: 24px;
+    }
+}
+
 .titleL img {
     height: 40px;
 }
 
+@media only screen and (max-width: 600px) {
+    .titleL img {
+        height: 25px;
+    }
+}
 
 .justify-image {
     text-align: justify;
